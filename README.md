@@ -1,4 +1,4 @@
-# ImGui Calculator
+# CPP Gui Calculator
 
 A simple **GUI calculator** built with **C++** using Dear ImGui, GLFW, and OpenGL.
 The project demonstrates how to build a small desktop application with an immediate-mode GUI.
@@ -7,6 +7,7 @@ The project demonstrates how to build a small desktop application with an immedi
 # Screenshot
 
 <img src="screenshots/Screenshot.png" alt="Calculator Screenshot"/>
+
 ---
 
 ## Technologies Used
@@ -21,20 +22,27 @@ The project demonstrates how to build a small desktop application with an immedi
 ## Project Structure
 
 ```
-cpp-calculator/
+CPP-Calculator/
 │
-├── main.cpp
-├── imgui/
+├── main.cpp                # Main application source
+├── calculator              # Compiled executable
+├── imgui.ini               # ImGui configuration file
+│
+├── imgui/                  # Dear ImGui source files
 │   ├── imgui.cpp
 │   ├── imgui_draw.cpp
 │   ├── imgui_tables.cpp
 │   ├── imgui_widgets.cpp
 │   ├── imgui.h
+│   │
 │   └── backends/
 │       ├── imgui_impl_glfw.cpp
 │       ├── imgui_impl_glfw.h
 │       ├── imgui_impl_opengl3.cpp
 │       └── imgui_impl_opengl3.h
+│
+└── screenshots/            # Application screenshots
+
 ```
 
 ---
